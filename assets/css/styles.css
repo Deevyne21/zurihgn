@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #234567;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 18px;
+}
+
+.hero img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.github p a {
+    text-decoration: none;
+    color: black;
+}
+
+.github p a:hover {
+    color: white;
+}
