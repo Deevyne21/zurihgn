@@ -9,40 +9,38 @@
 </head>
 
 <body>
-    <header>
-        <h1>WELCOME TO MY FRONTEND PAGE</h1>
-    </header>
+
 
     <section class="hero">
-        <h2>FRONTEND TRACK - STAGE ONE TASK</h2>
 
+
+        <!-- My slack profile Picture -->
+        <div>
+            <img src="assets/images/deevyne.jpg" alt="Deevyne21" class="profile-img" data-testid="slackDisplayImage">
+        </div>
         <div class="slackName">
             <!-- Slack Name -->
             <p data-testid="slackUserName">Deevyne21</p>
         </div>
-        <div>
-            <!-- My slack profile Picture -->
 
-            <img src="assets/images/deevyne.jpg" alt="Deevyne21" class="profile-pic" data-testid="slackDisplayImage">
-        </div>
         <div class="currentDay">
 
             <!-- Current Day Of the Week -->
-            <p>Today is <span data-testid="currentDayOfTheWeek"></span></p>
+            <p> <span data-testid="currentDayOfTheWeek" id="currentDay"></span></p>
 
         </div>
         <div class="currentime">
             <!-- Current UTC Time -->
-            <p>Current UTC Time:<span data-testid="currentUTCTime"></span>milliseconds</p>
+            <p class="time"><span data-testid="currentUTCTime" id="currentUTCTime"></span></p>
 
         </div>
-        <div>
-            <!-- Track -->
-            <p data-testid="myTrack">Frontend</p>
+        <div class="track">
+
+            <p data-testid="myTrack"><strong>Frontend</strong></p>
         </div>
         <div class="github">
             <!-- Git Hub URL -->
-            <p>Git Repository: <a href="https://github.com/Deevyne21/zurihgn" data-testid="githubURL">https://github.com/Deevyne21/zurihgn</a></p>
+            <p class="git-repo"> <a href="https://github.com/Deevyne21/zurihgn" data-testid="githubURL">source code</a></p>
 
         </div>
 
